@@ -1,0 +1,39 @@
+<!--stopindex-->
+<div class="banner-eere">
+    <div class="container">
+        <div class="row">
+
+            <!-- Banner -->
+            <img src="public/images/logo_eere.png" alt="U.S. Department of Energy | Energy Efficiency & Renewable Energy"  usemap="#bannermap" class="logo">
+            <map id="bannermap" name="bannermap">
+                <area shape="rect" coords="0,0,140,45" href="http://energy.gov/" alt="U.S. Department of Energy">
+                <area shape="rect" coords="141,0,300,45" href="http://energy.gov/eere" alt="Energy Efficiency & Renewable Energy">
+            </map>
+
+
+            <!-- Search box -->
+            <div class="searchbox">
+                <!-- Ultraseek Search -->
+                <form name="seek" method="get" action="http://search.nrel.gov/query.html">
+                    <label for="search" class="sr-only">{{Sitename}}</label>
+                    <input type="hidden" name="qp" value="url:" /> <!-- get search code from Marsha Luevane -->
+                    <input type="hidden" name="style" value="eere" />
+                    <input type="hidden" name="qs" value="" />
+                    <input type="hidden" name="qc" value="eren" />
+                    <input type="hidden" name="ws" value="0" />
+                    <input type="hidden" name="qm" value="0" />
+                    <input type="hidden" name="st" value="1" />
+                    <input type="hidden" name="nh" value="10" />
+                    <input type="hidden" name="lk" value="1" />
+                    <input type="hidden" name="rf" value="0" />
+                    <input type="hidden" name="oq" value="" />
+                    <input type="hidden" name="col" value="eren" />
+                    <input type="text"   name="qt" maxlength="2047" id="search" placeholder="Search {{Sitename}}" />
+                    <input type="image"  src="public/images/search_glass.png" value="Search" alt="Search" class="form-submit" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--startindex-->

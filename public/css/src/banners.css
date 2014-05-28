@@ -1,0 +1,113 @@
+/*
+ *  Banner Styles
+ **************************************************/
+.banner-eere {
+    width: 100%;
+    background-color: #5d9300;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    height: 78px;
+}
+.banner-eere .logo {
+    display: inline-block;
+    padding: 1em 0;
+    vertical-align: middle;
+}
+
+.banner-site {
+    margin: 0 auto;
+    border-bottom: 1px solid #bbb;
+    height: 100px;
+}
+
+
+.banner-site .sitename {
+    font-size: 2.8em;
+    line-height: .8;
+    margin: 0;
+    padding: 1em 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #444;
+    font-weight: 300;
+}
+
+.banner-site .sitename a,
+.banner-site .sitename a:visited,
+.banner-site .sitename a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+
+/*
+ *  Search box
+ **************************************************/
+.searchbox {
+    padding: 2em 0;
+    float: right;
+}
+.searchbox label {
+    left:-10000px;
+    display: ;
+}
+.searchbox input[type=text] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 0 0;
+    color:#666;
+    font-size: 12px;
+    height: 23px;
+    padding: 0 13px;
+    vertical-align: top;
+    width:210px;
+}
+
+
+.searchbox .form-submit {
+    -moz-appearance: none;
+    background-color: #fff;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    margin-left:-5px;
+    color:#666;
+}
+
+
+:-webkit-input-placeholder {font-size: 12px;color: #CCC;}
+:-moz-placeholder {font-size: 12px;color: #CCC;}
+:-ms-input-placeholder {font-size: 12px;color: #CCC;}
+
+
+
+
+
+/*
+ *  Page utilities bar Styles
+ **************************************************/
+.utilities {
+    padding:1em 0;
+}
+/*
+ *  Breadcrumbs Styles
+ **************************************************/
+.utilities .breadcrumbs {
+    display: inline-block;
+    font-weight: bold;
+    font-size: .8em;
+    width: 49%;
+}
+.utilities .breadcrumbs a,
+.utilities .breadcrumbs a:visited {
+    color: #0074A1;
+}
+
+
+.utilities .breadcrumbs a:hover {
+    color: #0074A1;
+    text-decoration: underline;
+}
+

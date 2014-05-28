@@ -1,0 +1,32 @@
+/*
+ * Typography
+ **************************************************/
+
+h1 {
+    color: #0074A1;
+    font-weight: normal;
+}
+h2 {
+    font-weight: bold;
+}
+h3 {
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+h4 {
+    color: #558409;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    line-height: 1.25;
+}
+
+blockquote {
+    border-left: 5px solid #89CD00;
+}
+
+
+.icon-file {
+    margin-left:4px;
+    position:relative;
+    vertical-align:text-top;
+}

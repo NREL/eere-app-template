@@ -1,0 +1,23 @@
+{
+  "name": "eere-app-template",
+  "version": "0.0.1",
+  "authors": [
+    "Michael Oakley <Michael.Oakley@nrel.gov>"
+  ],
+  "description": "A base set of files to set up an EERE application",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "eere",
+    "template"
+  ],
+  "license": "None",
+  "private": true,
+  "dependencies": {
+    "jquery": "1.11.1",
+    "bootstrap": "~3.1.1",
+    "modernizr": "~2.8.1"
+  }
+}

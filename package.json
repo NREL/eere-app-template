@@ -1,0 +1,32 @@
+{
+  "name": "eere-app-template",
+  "version": "0.0.1",
+  "description": "A base set of files to set up an EERE application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NREL/eere-app-template"
+  },
+  "keywords": [
+    "eere",
+    "template"
+  ],
+  "author": "Michael Oakley",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/NREL/eere-app-template/issues"
+  },
+  "homepage": "https://github.com/NREL/eere-app-template",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-copy": "^0.5.0"
+  }
+}
