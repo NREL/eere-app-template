@@ -71,6 +71,7 @@ module.exports = function(grunt) {
                         'public/css/src/addthis.css',
                         'public/css/src/banners.css',
                         'public/css/src/footer.css',
+                        'public/css/src/forms.css',
                         'public/css/src/sidenav.css',
                         'public/css/src/typography.css',
                         ]
@@ -147,7 +148,7 @@ module.exports = function(grunt) {
             },
             css: {
                 files: ['public/css/src/*.css'],
-                tasks: ['concat:css']
+                tasks: ['concat:css', 'cssmin:release']
             }
         }
 

@@ -30,3 +30,18 @@ blockquote {
     position:relative;
     vertical-align:text-top;
 }
+
+
+
+/*
+ *  Font Awesome
+ **************************************************/
+
+/*  Toggle style on collapse */
+.collapsed .fa-minus-square-o:before {
+  content: "\f196";
+}
+
+.collapsed .fa-plus-square-o:before {
+  content: "\f147";
+}

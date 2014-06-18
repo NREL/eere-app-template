@@ -28,6 +28,8 @@
             <div class="col-sm-12">
 
 
+<div class="row panel panel-default">
+<div class="col-sm-12">
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
         <h3>Heading 3</h3>
@@ -37,26 +39,29 @@
 
         <hr>
 
-        <h3>Paragraph</h3>
+        <h2>Paragraph</h2>
         <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
         <hr>
 
-        <h3>Links</h3>
+        <h2>Links</h2>
         <p><a href="">Go to the home page</a> or <a href="">return to the top of this page.</a> <a href="nofile.pdf">View this important document</a>. <a href="nofile.doc">View this important document</a>.</p>
 
         <hr>
 
-        <h3>Blockquote</h3>
+        <h2>Blockquote</h2>
 
         <blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <small>Someone famous in <cite title="" data-original-title="Source Title">Source Title</cite></small>
         </blockquote>
+</div>
+</div>
 
-        <hr>
+<div class="row panel panel-default" id="Lists">
+<div class="col-sm-12">
 
-        <h3>Ordered List</h3>
+        <h2>Ordered List</h2>
         <ol>
             <li>This is an ordered list.</li>
             <li>This is the second item, which contains a sub list
@@ -69,7 +74,7 @@
         </ol>
 
 
-        <h3>Unordered List</h3>
+        <h2>Unordered List</h2>
 
         <ul>
         <li>United Kingdom of Great Britain and Northern Ireland:
@@ -90,7 +95,7 @@
         </li>
         </ul>
 
-        <h3>Definition list</h3>
+        <h2>Definition list</h2>
 
         <dl>
         <dt>This is a term.</dt>
@@ -101,34 +106,260 @@
         <dt>Here is a defined term.</dt>
         <dd>dt terms may stand on their own without an accompanying dd, but in that case they share descriptions with the next available dt. You may not have a dd without a parent dt.</dd>
         </dl>
+</div>
+</div>
 
-        <hr>
+<div class="row panel panel-default" id="Sidenav">
+<div class="col-sm-12">
+<div class="col-sm-3">
 
-        <h3>Side/Left Nav</h3>
+        <h2>Side/Left Nav</h2>
 
-        <div class="sidenav hidden-print">
+        <div class="sidenav">
             <ul class="nav navlist">
-                <li class="active"><a href="#">Active State</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Electricity Generation</a></li>
+                <li><a href="#">Energy Efficiency</a></li>
+                <li><a href="#">Renewable Energy</a></li>
+                <li class="active"><a href="#">Transportation</a>
+                    <ul class="nav">
+                        <li><a href="#">Trains</a></li>
+                        <li><a href="#">Planes</a></li>
+                        <li><a href="#">Automobiles</a></li>
+                    </ul></li>
+                <li><a href="#">Community Planning</a></li>
+                <li><a href="#">Data Sources</a></li>
             </ul>
         </div>
 
-        <hr>
+</div>
+</div>
+</div>
 
-        <h3>Callout well</h3>
+<div class="row panel panel-default" id="Callout">
+    <div class="col-sm-12">
+
+        <h2>Callout well</h2>
 
         <div class="col-sm-4">
             <div class="well">
 
-            <img src="http://placekitten.com/210/210" title="I can haz templaht?" width="200"  style="border-radius:50%;">
-            <h4>Authoritatively Dynamically procrastinate </h4>
-            <p>Iterate resource-leveling imperatives after sticky information. End-to-end collaboration. </p>
+                <img src="http://placekitten.com/210/210" title="I can haz templaht?" width="200"  style="border-radius:50%;">
+                <h4>Authoritatively Dynamically procrastinate </h4>
+                <p>Iterate resource-leveling imperatives after sticky information. End-to-end collaboration. </p>
             </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row panel panel-default" id="Forms">
+    <div class="col-sm-6">
+        <h2>Forms</h2>
+
+        <p>Forms can be used when you wish to collect data from users. The <code>fieldset</code> element enables you to group related fields within a form, and each one should contain a corresponding <code>legend</code>. The <code>label</code> element ensures field descriptions are associated with their corresponding form widgets.</p>
+
+
+
+
+        <form role="form">
+
+        <h4>Radio Example</h4>
+
+        <div class="form-group">
+        <label for="exampleInputEmail1">Enter Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
         </div>
 
 
+        <h4>Checkbox Example</h4>
+
+        <div class="checkbox">
+        <label><input type="checkbox" value=""> Opt in!</label>
+        </div>
+
+
+        <h4>Radio Example</h4>
+
+        <div class="radio">
+        <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option One
+        </label>
+        </div>
+
+        <div class="radio">
+        <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option Two
+        </label>
+        </div>
+
+        <h4>Textarea Example</h4>
+
+        <div class="form-group">
+        <textarea class="form-control" rows="3"></textarea>
+        </div>
+
+        <h4>Select Example</h4>
+
+        <select class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+
+        <h4>Disabled Items</h4>
+
+        <fieldset disabled>
+        <div class="form-group">
+          <label for="disabledTextInput">Disabled input</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input" disabled>
+        </div>
+        <div class="form-group">
+          <label for="disabledSelect">Disabled select menu</label>
+          <select id="disabledSelect" class="form-control" disabled>
+            <option>Disabled select</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Can't check this
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+
+        </form>
+
+        <h4>Buttons</h4>
+        <h5>Button Types</h5>
+        <!-- Standard button -->
+        <button type="button" class="btn btn-default">Default</button>
+
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-primary">Primary</button>
+
+        <!-- Indicates a successful or positive action -->
+        <button type="button" class="btn btn-success">Success</button>
+
+        <!-- Contextual button for informational alert messages -->
+        <button type="button" class="btn btn-info">Info</button>
+
+        <!-- Indicates caution should be taken with this action -->
+        <button type="button" class="btn btn-warning">Warning</button>
+
+        <!-- Indicates a dangerous or potentially negative action -->
+        <button type="button" class="btn btn-danger">Danger</button>
+
+        <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+        <button type="button" class="btn btn-link">Link</button>
+
+        <h5>Button Sizes</h5>
+
+        <p>
+          <button type="button" class="btn btn-primary btn-lg">Large button</button>
+          <button type="button" class="btn btn-default btn-lg">Large button</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary">Default button</button>
+          <button type="button" class="btn btn-default">Default button</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary btn-sm">Small button</button>
+          <button type="button" class="btn btn-default btn-sm">Small button</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+          <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+        </p>
+    </div>
+    </div>
+
+
+<div class="row panel panel-default" id="Faceted">
+<div class="col-sm-3">
+
+
+<h2>Faceted Search</h2>
+
+
+    <form class="faceted-search">
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Search</button>
+            <button type="button" class="btn btn-link">Reset</button>
+        </div>
+
+        <div class="form-group">
+            <label class="sr-only" for="">Enter keywords</label>
+            <input type="text" class="form-control" id="" placeholder="Enter keywords">
+        </div>
+
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse"  href="#collapseOne"><i class="fa fa-minus-square-o"></i> Topics</a>
+                    </h3>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+
+                        <a class="bef-toggle" href="">Select All</a>
+
+                        <div class="checkbox">
+                        <label><input type="checkbox" value=""> Facet 1</label>
+                        </div>
+                        <div class="checkbox">
+                        <label><input type="checkbox" value=""> Facet 2</label>
+                        </div>
+                        <div class="checkbox">
+                        <label><input type="checkbox" value=""> Facet 3</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse" href="#collapseTwo"><i class="fa fa-plus-square-o"></i> Resources</a>
+                    </h3>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <a class="bef-toggle" href="">Select All</a>
+
+                        <div class="checkbox">
+                        <label><input type="checkbox" value=""> Facet A</label>
+                        </div>
+                        <div class="checkbox">
+                        <label><input type="checkbox" value=""> Facet B</label>
+                        </div>
+                        <div class="checkbox">
+                        <label><input type="checkbox" value=""> Facet C</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+
+</div></div>
+
+
+
+
+
+
+
+
+
+<!-- content/container/row/column end-->
             </div>
         </div>
     </div>
