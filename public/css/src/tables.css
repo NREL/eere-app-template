@@ -1,0 +1,18 @@
+/*
+ *  Table Styles
+ **************************************************/
+/*
+
+To do: import varaibles.less, and convert this to less;
+
+ */
+
+.table-eere th {
+    background-color: #5D9300;
+    color:#fff;
+}
+
+.table-eere tr > th,
+.table-eere > thead tr > th {
+    border-bottom:none;
+}
