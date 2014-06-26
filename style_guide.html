@@ -10,16 +10,160 @@
         <link rel="shortcut icon" href="/favicon.ico">
 
         <title>{{Title}}</title>
-        <!--#include virtual="app/views/template/head.html"-->
+
+        <!-- BEGIN app/views/template/head.html
+        ================================================== -->
+
+        <!-- Original Bootstrap CSS
+        ================================================== -->
+        <link href="public/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome
+        ================================================== -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this application
+        ================================================== -->
+        <link href="public/css/app.min.css" rel="stylesheet">
+
+        <!-- IE8 support of HTML5 elements and media queries
+        ================================================== -->
+        <!--[if lt IE 9]>
+            <script src="public/js/html5shiv.min.js"></script>
+            <script src="public/js/respond.min.js"></script>
+        <![endif]-->
+
+
+        <!-- jQuery
+        ================================================== -->
+        <script src="public/libs/jquery/jquery.min.js"></script>
+
+        <!-- Modernizr
+        ================================================== -->
+        <script src="public/libs/modernizr/modernizr.min.js"></script>
+
+        <!-- Google Analytics
+        ================================================== -->
+        <script type="text/javascript">
+         (function() {
+            var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+            so.src = '//apps1.eere.energy.gov/includes/ga/eere.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+          })();
+        </script>
+
+        <!--  END app/views/template/head.html
+        ================================================== -->
 
     </head>
 
     <body>
 
-        <!--#include virtual="app/views/template/banner_eere.html" -->
-        <!--#include virtual="app/views/template/banner_site.html" -->
-        <!--#include virtual="app/views/template/page_utilities.html" -->
+        <!-- BEGIN app/views/template/banner_eere.html
+        ================================================== -->
 
+        <!--stopindex-->
+        <div class="banner-eere">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Banner -->
+                    <img src="public/images/logo_eere.png" alt="U.S. Department of Energy | Energy Efficiency & Renewable Energy"  usemap="#bannermap" class="logo">
+                    <map id="bannermap" name="bannermap">
+                        <area shape="rect" coords="0,0,140,45" href="http://energy.gov/" alt="U.S. Department of Energy">
+                        <area shape="rect" coords="141,0,300,45" href="http://energy.gov/eere" alt="Energy Efficiency & Renewable Energy">
+                    </map>
+
+
+                    <!-- Search box -->
+                    <div class="searchbox">
+                        <!-- Ultraseek Search -->
+                        <form name="seek" method="get" action="http://search.nrel.gov/query.html">
+                            <label for="search" class="sr-only">{{Sitename}}</label>
+                            <input type="hidden" name="qp" value="url:" /> <!-- get search code from Marsha Luevane -->
+                            <input type="hidden" name="style" value="eere" />
+                            <input type="hidden" name="qs" value="" />
+                            <input type="hidden" name="qc" value="eren" />
+                            <input type="hidden" name="ws" value="0" />
+                            <input type="hidden" name="qm" value="0" />
+                            <input type="hidden" name="st" value="1" />
+                            <input type="hidden" name="nh" value="10" />
+                            <input type="hidden" name="lk" value="1" />
+                            <input type="hidden" name="rf" value="0" />
+                            <input type="hidden" name="oq" value="" />
+                            <input type="hidden" name="col" value="eren" />
+                            <input type="text"   name="qt" maxlength="2047" id="search" placeholder="Search {{Sitename}}" />
+                            <input type="image"  src="public/images/search_glass.png" value="Search" alt="Search" class="form-submit" />
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--startindex-->
+        <!-- END app/views/template/banner_eere.html
+        ================================================== -->
+
+
+        <!-- BEGIN app/views/template/banner_site.html
+        ================================================== -->
+        <!--stopindex-->
+        <div class="banner-site">
+            <div class="container">
+                <div class="row">
+                    <div class="sitename">
+                        <a href="/">Sitename</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--startindex-->
+        <!-- END app/views/template/banner_site.html
+        ================================================== -->
+
+
+        <!-- BEGIN app/views/template/page_utilities.html
+        ================================================== -->
+        <!--stopindex-->
+        <div class="container">
+            <div class="row">
+                <div class="utilities">
+
+
+        <!-- BEGIN Breadcrumbs -->
+        <div class="breadcrumbs">
+            <a href="http://www.eere.energy.gov/">EERE</a> &raquo; {{Sitename}}
+        </div>
+        <!-- END Breadcrumbs -->
+
+
+        <!-- BEGIN AddThis Button -->
+        <div class="addthis">
+            <script type="text/javascript" src="public/libs/addthis/js/addthis_accessible.js"></script>
+            <ul>
+                <li class="addthis_toolbar"><span class="addthis_button_508">Share</span> <span class="invisible">this resource</span>
+                    <ul class="addthis_list">
+                    <li><script src="public/libs/addthis/js/email.js"></script></li>
+                    <li><script src="public/libs/addthis/js/facebook.js"></script></li>
+                    <li><script src="public/libs/addthis/js/twitter.js"></script></li>
+                    <li><script src="public/libs/addthis/js/google.js"></script></li>
+                    <li><script src="public/libs/addthis/js/bookmark.js"></script></li>
+                    <li><script src="public/libs/addthis/js/digg.js"></script></li>
+                    <li><script src="public/libs/addthis/js/other.js"></script></li>
+                    </ul>
+                </li>
+            </ul>
+            <script type="text/javascript">addThisList();</script>
+        </div>
+        <!-- END AddThis Button  -->
+
+
+                </div>
+            </div>
+        </div>
+        <!--startindex-->
+        <!-- END app/views/template/page_utilities.html
+        ================================================== -->
 
 <!-- BEGIN CONTENT -->
 <div class="content">
@@ -28,7 +172,7 @@
             <div class="col-sm-12">
 
 
-<div class="row panel panel-default">
+<div class="row panel panel-default" id="Headings">
 <div class="col-sm-12">
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
@@ -55,8 +199,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <small>Someone famous in <cite title="" data-original-title="Source Title">Source Title</cite></small>
         </blockquote>
-</div>
-</div>
+
+</div></div>
 
 <div class="row panel panel-default" id="Lists">
 <div class="col-sm-12">
@@ -106,11 +250,10 @@
         <dt>Here is a defined term.</dt>
         <dd>dt terms may stand on their own without an accompanying dd, but in that case they share descriptions with the next available dt. You may not have a dd without a parent dt.</dd>
         </dl>
-</div>
-</div>
+
+</div></div>
 
 <div class="row panel panel-default" id="Sidenav">
-<div class="col-sm-12">
 <div class="col-sm-4">
 
         <h2>Side/Left Nav</h2>
@@ -131,9 +274,7 @@
             </ul>
         </div>
 
-</div>
-</div>
-</div>
+</div></div>
 
 <div class="row panel panel-default" id="Callout">
     <div class="col-sm-12">
@@ -232,8 +373,10 @@
         </fieldset>
 
         </form>
+    </div>
 
-        <h4>Buttons</h4>
+    <div class="col-sm-12">
+        <h4 id="Buttons">Buttons</h4>
         <h5>Button Types</h5>
         <!-- Standard button -->
         <button type="button" class="btn btn-default">Default</button>
@@ -274,15 +417,29 @@
           <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
           <button type="button" class="btn btn-default btn-xs">Extra small button</button>
         </p>
+
+
+        <h4 id="Pagination">Pagination</h4>
+        <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li class="active"><a href="#">2 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><span>&hellip;</span></li>
+        <li><a href="#">next &rsaquo;</a></li>
+        <li><a href="#">last &raquo;</a></li>
+        </ul>
+
     </div>
-    </div>
+</div>
 
 
 <div class="row panel panel-default" id="Faceted">
-<div class="col-sm-3">
+<div class="col-sm-4">
 
+    <h2>Faceted Search</h2>
 
-<h2>Faceted Search</h2>
 
 
     <form class="faceted-search">
@@ -352,7 +509,101 @@
 </div></div>
 
 
+<div class="row panel panel-default" id="Tables">
+<div class="col-sm-12">
 
+    <h2>Tables</h2>
+
+    <div class="col-sm-6">
+
+        <p>Table with stripes</p>
+        <table class="table table-striped table-eere">
+        <thead>
+            <tr>
+                <th>Game</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Italy vs Costa Rica</td>
+                <td>0 &ndash; 1</td>
+            </tr>
+            <tr>
+                <td>Honduras vs Ecuador</td>
+                <td>1 &ndash; 2</td>
+            </tr>
+            <tr>
+                <td>Switzerland vs France</td>
+                <td>2 &ndash; 5</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+
+    <div class="col-sm-6">
+
+
+        <p>Condensed table</p>
+        <table class="table table-condensed table-striped table-eere">
+        <thead>
+            <tr>
+                <th>Game</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Australia vs Spain</td>
+                <td>0 &ndash; 3</td>
+            </tr>
+            <tr>
+                <td>Cameroon vs Brazil</td>
+                <td>1 &ndash; 4</td>
+            </tr>
+            <tr>
+                <td>Netherlands vs Chile</td>
+                <td>2 &ndash; 0</td>
+            </tr>
+            <tr>
+                <td>Croatia vs Mexico</td>
+                <td>1 &ndash; 3</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+
+    <div class="col-sm-6">
+
+        <p>Table with borders</p>
+        <table class="table table-bordered table-eere">
+        <thead>
+            <tr>
+                <th>Game</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Belgium vs Russia</td>
+                <td>1 &ndash; 0</td>
+            </tr>
+            <tr>
+                <td>Korean Republic vs Algeria</td>
+                <td>2 &ndash; 4</td>
+            </tr>
+            <tr>
+                <td>United States vs Portugal</td>
+                <td>2 &ndash; 2</td>
+            </tr>
+        </tbody>
+        </table>
+
+    </div>
+
+</div></div>
 
 
 
@@ -368,8 +619,55 @@
 
 <!-- END CONTENT -->
 
-        <!--#include virtual="app/views/template/scripts.html" -->
-        <!--#include virtual="app/views/template/footer.html" -->
+        <!-- BEGIN app/views/template/scripts.html
+        ================================================== -->
+
+        <!-- Core javascript
+        ================================================== -->
+        <script src="public/libs/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Custom (minified and concatenated) javascript
+        ================================================== -->
+        <script src="public/js/app.min.js"></script>
+
+
+        <!-- CrazyEgg
+        ================================================== -->
+        <script type="text/javascript">
+        setTimeout(function(){var a=document.createElement("script");
+        var b=document.getElementsByTagName('script')[0];
+        a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/5883.js?"+Math.floor(new Date().getTime()/3600000);
+        a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+        </script>
+        <!-- END app/views/template/scripts.html
+        ================================================== -->
+
+
+        <!-- BEGIN app/views/template/footer.html
+        ================================================== -->
+        <!--stopindex-->
+        <footer class="footer-site">
+            <div class="container">
+                <div class="row">
+
+
+
+        <p class="footer-tagline">{{Sitename}} is a resource of the Department of Energy's {{Office}} Office.</p>
+
+        <p class="footer-links">
+            <a href="{{Link}}">Contact Us</a> |
+            <a href="{{Link}}">{{Office name}}</a> |
+            <a href="http://energy.gov/eere">Office of Energy Efficiency &amp; Renewable Energy</a>
+        </p>
+
+
+
+                </div>
+            </div>
+        </footer>
+        <!--startindex-->
+        <!-- END app/views/template/footer.html
+        ================================================== -->
 
     </body>
 </html>

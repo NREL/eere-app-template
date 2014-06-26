@@ -1,7 +1,7 @@
 # EERE Application Template
 The EERE application template is intended as a cross-platform collection of tools and files. It provides the base styles and functionality needed to develop an EERE application. The pattern uploaded here is for MVC, but you can easily adapt it to other structures. Also included are several optional build and dependency tools for development.
 
-See the ```index.html``` file for a working example. Refer to ```style_guide.html``` for common content styles.
+See the ```example.html``` file for a working example. Refer to ```style_guide.html``` for common content styles.
 
 ## Installation
 

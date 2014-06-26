@@ -73,6 +73,7 @@ module.exports = function(grunt) {
                         'public/css/src/footer.css',
                         'public/css/src/forms.css',
                         'public/css/src/sidenav.css',
+                        'public/css/src/tables.css',
                         'public/css/src/typography.css',
                         ]
                 }
@@ -170,7 +171,7 @@ module.exports = function(grunt) {
     // run the dev task (copy 3rd party libs over, concat css and js files)
     grunt.registerTask('dev',     ['concat:css', 'concat:js']   );
 
-    // run all the "release" subtasks to generate a production ready build
+    // run all the "release" subtasks to generate a production ready build from dev build
     grunt.registerTask('release', ['copy:release',  'uglify:release', 'cssmin:release']);
 
 

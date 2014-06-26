@@ -173,3 +173,63 @@ select.form-control[disabled] {
   border:1px solid #982b2b;
 }
 
+
+/*
+ *  Pagination
+ **************************************************/
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 26px 0;
+    border-radius: 4px;
+    height:29px;
+    line-height:16px;
+    font-weight: 500;
+
+}
+
+
+.pagination > li {
+    display: inline-block;
+    margin: 0 .1em;
+    height:inherit;
+    line-height:inherit;
+}
+
+
+.pagination > li > a {
+    line-height: inherit;
+    padding: .3em .5em;
+    text-decoration: none;
+    color: #0074a1;
+    border: 1px solid #ccc;
+    border-radius: .25em;
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #eeeeee));
+    background-image: -webkit-linear-gradient(white, #eeeeee);
+    background-image: linear-gradient(white, #eeeeee);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.8), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+.pagination > li > span {
+    border:none;
+    color:inherit;
+    line-height: inherit;
+    height: inherit;
+    padding: .3em 0;
+}
+.pagination > li > span:hover {
+    background-color: transparent;
+}
+
+.pagination > .active > a {
+    background-color: #F2F2F1;
+    background-image: linear-gradient(#F2F2F2, #E1E1E1);
+}
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus {
+    border: 1px solid #ccc;
+    color:#444;
+}
