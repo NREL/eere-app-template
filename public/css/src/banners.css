@@ -23,7 +23,7 @@
 
 
 .banner-site .sitename {
-    font-size: 2.8em;
+    font-size: 2.26em;
     line-height: .8;
     margin: 0;
     padding: 1em 0;
@@ -90,6 +90,7 @@
  **************************************************/
 .utilities {
     padding:1em 0;
+    font-size: .8em;
 }
 /*
  *  Breadcrumbs Styles
@@ -97,7 +98,6 @@
 .utilities .breadcrumbs {
     display: inline-block;
     font-weight: bold;
-    font-size: .8em;
     width: 49%;
 }
 .utilities .breadcrumbs a,

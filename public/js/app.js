@@ -1,7 +1,7 @@
 /*!
  * DEVELOPMENT VERSION
  * EERE Template v0.0.1 (https://github.com/NREL/eere-app-template)
- * 2014-05-28
+ * 2014-07-21 3:43
  */
 (function ($) {
   $(document).ready(function() {
