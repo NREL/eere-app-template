@@ -54,7 +54,15 @@
 
         <!--  END app/views/template/head.html
         ================================================== -->
-
+        <style type="text/css">
+            /* DEMO styles. Not part of the EERE template. */
+            .demo-colorboxes .colors,
+            .demo-colorboxes .colors-extended  {
+                height: 100px;
+                padding: 5px;
+                border: 5px solid #FFF;
+            }
+        </style>
     </head>
 
     <body>
@@ -170,6 +178,54 @@
     <div class="container">
        <div class="row">
             <div class="col-sm-12">
+<div class="row panel panel-default demo-colorboxes" id="Colors">
+  <div class="col-sm-12">
+    <div>
+      <h2>Primary Color Palette</h2>
+      <p>These are the primary colors used in EERE application interfaces. Text used over these colors must comply with <a href="http://webaim.org/resources/contrastchecker/">WCAG AA color contrast</a> standards for accessibility. The class for each color includes a default text color that complies with these standards, shown as the color name.</p>
+          <div class="col-md-2">
+            <div class="colors green"><p>Green</p></div>
+          </div>
+          <div class="col-md-2">
+            <div class="colors blue"><p>Blue</p></div>
+          </div>
+          <div class="col-md-2">
+            <div class="colors dkgray"><p>Dark Gray</p></div>
+          </div>
+          <div class="col-md-2">
+            <div class="colors ltgray"><p>Light Gray</p></div>
+          </div>
+          <div class="clearfix"></div>
+    </div>
+    <div>
+      <h2>Extended Color Palette</h2>
+      <p>These colors can be utilized for things like charts and graphs or other graphics and are based on the <a href="http://www1.eere.energy.gov/communicationstandards/downloads/eere_guidelines.zip">EERE Identity and Design Guidelines</a> colors. Additional colors that fit with the palette can be created when charts or graphs require more than the number of colors shown here. Text used over these colors must comply with <a href="http://webaim.org/resources/contrastchecker/">color contrast</a> standards for accessibility. The class for each color includes a default text color that complies with these standards, shown as the color name.</p>
+        <div class="col-md-2">
+          <div class="colors-extended dkblue"><p>Dark Blue</p></div>
+        </div>
+        <div class="col-md-2">
+          <div class="colors-extended ltblue"><p>Light Blue</p></div>
+        </div>
+        <div class="col-md-2">
+          <div class="colors-extended dkgreen"><p>Dark Green</p></div>
+        </div>
+        <div class="col-md-2">
+          <div class="colors-extended ltgreen"><p>Light Green</p></div>
+        </div>
+        <div class="col-md-2">
+          <div class="colors-extended orange"><p>Orange</p></div>
+        </div>
+        <div class="col-md-2">
+          <div class="colors-extended yellow"><p>Yellow</p></div>
+        </div>
+        <div class="col-md-2">
+          <div class="colors-extended dkgray"><p>Dark Gray</p></div>
+        </div>
+        <div class="col-md-2">
+          <div class="colors-extended ltgray"><p>Light Gray</p></div>
+        </div>
+    </div>
+</div></div>
 
 
 <div class="row panel panel-default" id="Headings">
