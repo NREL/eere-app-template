@@ -1,7 +1,7 @@
 /*!
  * DEVELOPMENT VERSION
  * EERE Template v0.0.1 (https://github.com/NREL/eere-app-template)
- * 2014-07-22 2:48
+ * 2014-07-28 9:15
  */
 /*!
  *  moakley
@@ -6414,4 +6414,50 @@ blockquote {
 
 .collapsed .fa-plus-square-o:before {
   content: "\f147";
+}
+/*
+ *  Styles for components that don't have a home elsewhere (yet)
+ **************************************************/
+
+
+.results-list .results-total {
+    border-bottom: 1px solid #999;
+}
+
+.results-list .results-total:before,
+.results-list .results-total:after {
+    content: " ";
+    display: table;
+}
+
+.results-list .results-total:after {
+    clear: both;
+}
+
+.results-total  p {
+    margin-bottom: 0;
+    color:#444;
+    font-size: 90%;
+}
+
+.results-list .results-item {
+    border-bottom: 1px solid #CCC;
+}
+
+.results-item  .subheading {
+    font-style: italic;
+    color:#666;
+    line-height: 1.2;
+    font-size: 90%;
+}
+
+.results-item  .subheading h5 {
+    margin-top:0;
+}
+
+.results-item  .footer {
+    color: #5D9300;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80%;
 }

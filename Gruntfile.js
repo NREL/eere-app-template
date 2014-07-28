@@ -75,6 +75,7 @@ module.exports = function(grunt) {
                         'public/css/src/sidenav.css',
                         'public/css/src/tables.css',
                         'public/css/src/typography.css',
+                        'public/css/src/components.css'
                         ]
                 }
             }
@@ -165,7 +166,7 @@ module.exports = function(grunt) {
 
 
     // Tasks to handle just CSS or JS files.
-    grunt.registerTask('css', [ 'cssmin']);
+    grunt.registerTask('css', [ 'watch:css']);
     grunt.registerTask('js',  [ 'concat', 'uglify', 'copy']);
 
     // run the dev task (copy 3rd party libs over, concat css and js files)
