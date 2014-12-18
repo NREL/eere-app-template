@@ -80,10 +80,11 @@
  **************************************************/
 
 .banner-links + .navbar-collapse {
-    clear: both; /* clear the logo, and the banner-links if present */
     margin-top:5px;
 }
-
+.banner-tools .navbar-collapse  {
+    clear: both;
+}
 
 
 
@@ -100,8 +101,6 @@
 }
 
 .searchbar-form button {
-/*    background-color:#5E6A71;
-    border-color:#5E6A71;*/
     color:#fff;
     font-size: 12px;
     height:26px;
@@ -110,9 +109,6 @@
 
 @media (min-width: 768px) {
     .searchbar-form button {
-        /*background-color: #D1D5D8;
-        border-color: #D1D5D8;
-        color: #000;*/
     }
 }
 
