@@ -74,6 +74,7 @@ module.exports = function(grunt) {
                         'public/css/src/forms.css',
                         'public/css/src/sidenav.css',
                         'public/css/src/tables.css',
+                        'public/css/src/topnav.css',
                         'public/css/src/typography.css',
                         'public/css/src/components.css'
                         ]

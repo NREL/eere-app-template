@@ -71,38 +71,29 @@
         ================================================== -->
 
         <!--stopindex-->
+        <header role="banner" id="banner">
         <div class="banner-eere">
             <div class="container">
                 <div class="row">
 
-                    <!-- Banner -->
-                    <img src="public/images/logo_eere.png" alt="U.S. Department of Energy | Energy Efficiency & Renewable Energy"  usemap="#bannermap" class="logo">
-                    <map id="bannermap" name="bannermap">
-                        <area shape="rect" coords="0,0,140,45" href="http://energy.gov/" alt="U.S. Department of Energy">
-                        <area shape="rect" coords="141,0,300,45" href="http://energy.gov/eere" alt="Energy Efficiency & Renewable Energy">
-                    </map>
+                    <div class="col-sm-6 col-xs-6">
 
+                        <!-- Horizontal Banner -->
+                        <img class="banner-logo hidden-xs"
+                             src="public/images/logo_eere.png" alt=""  usemap="#bannermap-h" >
+                        <map id="bannermap-h" name="bannermap-h">
+                            <area shape="rect" coords="0,0,140,45"   href="http://energy.gov/"     alt="U.S. Department of Energy">
+                            <area shape="rect" coords="141,0,300,45" href="http://energy.gov/eere" alt="Energy Efficiency & Renewable Energy">
+                        </map>
 
-                    <!-- Search box -->
-                    <div class="searchbox">
-                        <!-- Ultraseek Search -->
-                        <form name="seek" method="get" action="http://search.nrel.gov/query.html">
-                            <label for="search" class="sr-only">{{Sitename}}</label>
-                            <input type="hidden" name="qp" value="url:" /> <!-- get search code from Marsha Luevane -->
-                            <input type="hidden" name="style" value="eere" />
-                            <input type="hidden" name="qs" value="" />
-                            <input type="hidden" name="qc" value="eren" />
-                            <input type="hidden" name="ws" value="0" />
-                            <input type="hidden" name="qm" value="0" />
-                            <input type="hidden" name="st" value="1" />
-                            <input type="hidden" name="nh" value="10" />
-                            <input type="hidden" name="lk" value="1" />
-                            <input type="hidden" name="rf" value="0" />
-                            <input type="hidden" name="oq" value="" />
-                            <input type="hidden" name="col" value="eren" />
-                            <input type="text"   name="qt" maxlength="2047" id="search" placeholder="Search {{Sitename}}" />
-                            <input type="image"  src="public/images/search_glass.png" value="Search" alt="Search" class="form-submit" />
-                        </form>
+                        <!-- Vertical Banner -->
+                        <img class="banner-logo visible-xs img-responsive"
+                             src="public/images/logo_eere_vert.png" alt=""  usemap="#bannermap-v">
+
+                        <map id="bannermap-v" name="bannermap-v">
+                            <area shape="rect" coords="0,0,130,45"  href="http://energy.gov/"     alt="U.S. Department of Energy">
+                            <area shape="rect" coords="0,45,183,96" href="http://energy.gov/eere" alt="Energy Efficiency & Renewable Energy">
+                        </map>
                     </div>
 
                 </div>
@@ -176,6 +167,65 @@
 <!-- BEGIN CONTENT -->
 <div class="content">
     <div class="container">
+
+
+<div class="row">
+<div class="col-sm-12">
+
+        <h1>EERE Application Style Guide</h1>
+        <p>This EERE application Style Guide page shows the standard styles and color palette for elements that you might incorporate into your project. All elements are designed on a responsive framework to accommodate responsive applications. EERE does not require applications to be responsively designed. The required elements for all applications are:</p>
+        <ul>
+            <li>Application banner</li>
+            <li>Application footer</li>
+            <li>CSS governing typography</li>
+            <li>Use of the color palettes below for any charts or graphics.</li>
+        </ul>
+
+        <p>All other elements shown here are optional. Please use these standard styles for common website elements only if you have them on your application or website (breadcrumbs are optional). If you have questions about how to apply these styles or if you have an element that's not included, please contact the <a href="mailto:Kenneth.Dykes@nrel.gov">EERE Web Template Coordinator</a>.</p>
+
+</div></div>
+
+
+<div class="row panel panel-default" id="Top">
+<div class="col-sm-12">
+
+    <h2>Top Navigation, Login Links, and Website Search</h2>
+    <p>Your application may have all or none of these elements. This Style Guide page shows the layout of an application with only the required banner. Styles for additional elements are linked below:</p>
+    <ul>
+    <li><a href="example-search.html">Website search box in the banner area</a></li>
+    <li><a href="example-links.html">Website "Login/Logout" and "Register" (administrative) links in banner area</a></li>
+    <li><a href="example-all.html">Website search box, "Login/Logout" and "Register" (administrative) links in banner area, and top navigation</a></li>
+    <li><a href="example-search-topnav.html">Website search box in the banner area and top navigation</a>.</li>
+    </ul>
+
+</div></div>
+
+
+<div class="row panel panel-default" id="Sidenav">
+<div class="col-sm-4">
+
+        <h2>Side/Left Navigation</h2>
+
+        <div class="sidenav">
+            <ul class="nav navlist">
+                <li><a href="#">Electricity Generation</a></li>
+                <li><a href="#">Energy Efficiency</a></li>
+                <li><a href="#">Renewable Energy</a></li>
+                <li class="active"><a href="#">Transportation</a>
+                    <ul class="nav">
+                        <li><a href="#">Trains</a></li>
+                        <li><a href="#">Planes</a></li>
+                        <li><a href="#">Automobiles</a></li>
+                    </ul></li>
+                <li><a href="#">Community Planning</a></li>
+                <li><a href="#">Data Sources</a></li>
+            </ul>
+        </div>
+
+</div></div>
+
+
+
        <div class="row">
             <div class="col-sm-12">
 <div class="row panel panel-default demo-colorboxes" id="Colors">
@@ -230,6 +280,8 @@
 
 <div class="row panel panel-default" id="Headings">
 <div class="col-sm-12">
+        <h2>Header Styles</h2>
+
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
         <h3>Heading 3</h3>
@@ -309,28 +361,7 @@
 
 </div></div>
 
-<div class="row panel panel-default" id="Sidenav">
-<div class="col-sm-4">
 
-        <h2>Side/Left Nav</h2>
-
-        <div class="sidenav">
-            <ul class="nav navlist">
-                <li><a href="#">Electricity Generation</a></li>
-                <li><a href="#">Energy Efficiency</a></li>
-                <li><a href="#">Renewable Energy</a></li>
-                <li class="active"><a href="#">Transportation</a>
-                    <ul class="nav">
-                        <li><a href="#">Trains</a></li>
-                        <li><a href="#">Planes</a></li>
-                        <li><a href="#">Automobiles</a></li>
-                    </ul></li>
-                <li><a href="#">Community Planning</a></li>
-                <li><a href="#">Data Sources</a></li>
-            </ul>
-        </div>
-
-</div></div>
 
 <div class="row panel panel-default" id="Callout">
     <div class="col-sm-12">
