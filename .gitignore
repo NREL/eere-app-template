@@ -22,6 +22,7 @@ Temporary Items
 # Logs
 logs
 *.log
+*.bak
 
 # Temp files
 tmp/

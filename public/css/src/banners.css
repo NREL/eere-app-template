@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+.banner-eere.banner-inverse {
+    background-color: #444;
+}
+
 .banner-eere .banner-logo {
     display: inline;
     float:left;
