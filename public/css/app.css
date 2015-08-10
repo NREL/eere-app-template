@@ -1,7 +1,7 @@
 /*!
  * DEVELOPMENT VERSION
  * EERE Template v0.0.1 (https://github.com/NREL/eere-app-template)
- * 2014-12-18 12:16
+ * 2015-08-10 10:34
  */
 /*!
  *  moakley
@@ -5868,6 +5868,10 @@ button.close {
     background-repeat: no-repeat;
     min-height: 78px;
     width: 100%;
+}
+
+.banner-eere.banner-inverse {
+    background-color: #444;
 }
 
 .banner-eere .banner-logo {
