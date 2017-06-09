@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    	
+       	<title>{{Title}}</title>
+       
+       	<!-- Bootstrap CSS -->
+    	<!-- med breakpoint customized for energy.gov -->
+		<link rel="stylesheet" href="client/css/bootstrap.min.css">
+   	
+   		<!-- Font Awesome
+        ================================================== -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    	
+    	<!-- Site CSS -->
+    	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+    	<link href="client/css/app.min.css" rel="stylesheet">
+
+        <!-- Google Analytics
+        ================================================== -->
+        <script type="text/javascript">
+         (function() {
+            var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+            so.src = '//apps1.eere.energy.gov/includes/ga/eere.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+          })();
+        </script>
+
+
+    	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    	<!--[if lt IE 9]>
+      	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+   
+	</head>
+
+	<body>
+        
+	<a href="#maincontent" class="sr-only">Skip to main content</a> 
+        
+	<!--stopindex-->
+    <header>
+    <div class="container-fluid">
+    <!-- Header - -->
+	 <div class="row">
+		<nav class="navbar navbar-inverse">
+		  <div class="container">
+
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#signup-login" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+				<a class="navbar-brand" href="https://energy.gov/">
+					<span><img class="banner-logo" src="assets/images/doe-eere-logo.png" alt="Energy.gov | Office of Energy Efficiency and Renewable Energy"></span> 
+					<span class="banner-title">{{Program Title Here}}</span>
+				</a>
+			</div>
+
+			<div class="navbar-collapse collapse" id="signup-login">
+			 
+			<ul class="nav navbar-nav navbar-right">
+         
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign Up</a>
+			  <ul class="dropdown-menu">
+				<li>
+				 <div class="signup">
+					<form name="signup" method="get" action="#">
+					 <div class="form-group">
+					  <label for="signup-firstname" class="sr-only">First Name</label>
+					  <input type="text" id="signup-firstname" placeholder="First Name"><br>
+					  <label for="signup-lastname" class="sr-only">Last Name</label>
+					  <input type="text"  id="signup-lastname" name="signup-lastname" placeholder="Last Name">
+					  <br>
+					  <label for="signup-email" class="sr-only">First Name</label>
+					  <input type="text" id="signup-email" placeholder="Email">
+					  <br>
+					  <label for="signup-password" class="sr-only">Password</label>
+					  <input type="password" id="signup-password" placeholder="Password"><br>
+					  <input class="btn" type="submit" name="submit" value="Login">
+					 </div>
+					</form>
+				 </div>
+				</li>
+			  </ul>
+			</li>
+
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login</a>
+				<ul class="dropdown-menu">
+				<li>
+				 <div class="login">
+					<form name="login" method="get" action="#">
+					<div class="form-group">
+					<label for="login-username" class="sr-only">Username</label>
+					<input type="text" id="login-username" placeholder="Username">
+					<br>
+					<label for="login-password" class="sr-only">Password</label>
+					<input type="password" id="login-password" placeholder="Password"><br>
+					<a href="#" class="btn">Login</a>
+					</div>
+				   </form>
+				 </div>
+				</li>
+			  </ul>
+			</li>
+
+		  </ul>	
+				
+			
+			</div><!-- /.navbar-collapse -->
+			
+			</div><!-- /.container-fluid -->
+		</nav>
+	  <!-- end header -->
+     </div><!-- /.row -->
+	</div><!-- /.container-fluid -->
+	</header>
+	
+    <div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			<!-- BEGIN Breadcrumbs -->
+					<div class="breadcrumbs">
+						<a href="http://www.eere.energy.gov/">EERE</a> &raquo; {{Sitename}}
+					</div>
+			<!-- END Breadcrumbs -->
+			</div>
+		</div>
+	</div>
+<!--startindex-->
+      
+      
+		<!-- BEGIN CONTENT -->
+			<div class="content" id="maincontent">
+				<div class="container">
+				   <div class="row">
+						<div class="col-sm-12">
+
+							<h1>Signup/Login Header</h1>
+							<p>Use for one page tools/applications that require permission to access.</p>
+							<p><a href="index.html">Back to Style Guide</a>.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- END CONTENT -->
+
+
+
+        
+        <!--stopindex-->
+		<footer class="footer-site">
+			<div class="container">
+				<div class="row">
+
+
+					<p class="footer-tagline">{{Sitename}} is a resource of the Department of Energy's {{Office name}} Office.</p>
+
+					<p class="footer-links">
+						<a href="#">Contact Us</a> |
+						<a href="#">{{Office name}}</a> |
+						<a href="http://energy.gov/eere">Office of Energy Efficiency &amp; Renewable Energy</a>
+					</p>
+
+
+				</div>
+			</div>
+		</footer>
+		<!--startindex-->
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Core javascript
+        ================================================== -->
+        <!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Custom (minified and concatenated) javascript
+        ================================================== -->
+        <script src="client/js/app.min.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    	
+       	<title>{{Title}}</title>
+       
+       	<!-- Bootstrap CSS -->
+    	<!-- med breakpoint customized for energy.gov -->
+		<link rel="stylesheet" href="client/css/bootstrap.min.css">
+   	
+   		<!-- Font Awesome
+        ================================================== -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    	
+    	<!-- Site CSS -->
+    	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+    	<link href="client/css/app.min.css" rel="stylesheet">
+
+        <!-- Google Analytics
+        ================================================== -->
+        <script type="text/javascript">
+         (function() {
+            var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+            so.src = '//apps1.eere.energy.gov/includes/ga/eere.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+          })();
+        </script>
+
+
+    	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    	<!--[if lt IE 9]>
+      	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+   
+	</head>
+
+	<body>
+        
+	<a href="#maincontent" class="sr-only">Skip to main content</a> 
+        
+	<!--stopindex-->
+    <header>
+    <div class="container-fluid">
+    <!-- Header - -->
+	 <div class="row">
+		<nav class="navbar navbar-inverse">
+		  <div class="container">
+
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#signup-login" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+				<a class="navbar-brand" href="https://energy.gov/">
+					<span><img class="banner-logo" src="assets/images/doe-eere-logo.png" alt="Energy.gov | Office of Energy Efficiency and Renewable Energy"></span> 
+					<span class="banner-title">{{Program Title Here}}</span>
+				</a>
+			</div>
+
+			<div class="navbar-collapse collapse" id="signup-login">
+			 <ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Navigation</a></li>
+				<li><a href="#">Navigation</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigation <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="#">Separated link</a></li>
+				  </ul>
+				</li>
+			  </ul>
+				
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+	  </div><!-- /.row -->
+    <!-- end header -->  
+	</div><!-- /.container-fluid -->
+		</header>
+	
+   
+     <div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			<!-- BEGIN Breadcrumbs -->
+					<div class="breadcrumbs">
+						<a href="http://www.eere.energy.gov/">EERE</a> &raquo; {{Sitename}}
+					</div>
+			<!-- END Breadcrumbs -->
+			</div>
+		</div>
+	</div>
+<!--startindex-->
+      
+      
+	<!-- BEGIN CONTENT -->
+	<div class="content" id="maincontent">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+
+				<h1>Simple One Level Navigation</h1>
+				<p>Use for sites with a few pages of overview content.</p>
+				<p><a href="index.html">Back to Style Guide</a>.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END CONTENT -->
+
+
+ 	<!--stopindex-->
+	<footer class="footer-site">
+		<div class="container">
+			<div class="row">
+
+
+					<p class="footer-tagline">{{Sitename}} is a resource of the Department of Energy's {{Office name}} Office.</p>
+
+					<p class="footer-links">
+						<a href="#">Contact Us</a> |
+						<a href="#">{{Office name}}</a> |
+						<a href="http://energy.gov/eere">Office of Energy Efficiency &amp; Renewable Energy</a>
+					</p>
+
+
+			</div>
+		</div>
+	</footer>
+	<!--startindex-->
+        
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Core Bootstrap javascript
+    ================================================== -->
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Custom (minified and concatenated) javascript
+    ================================================== -->
+    <script src="client/js/app.min.js"></script>
+
+
+    </body>
+</html>
