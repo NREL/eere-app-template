@@ -3696,7 +3696,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .banner-logo {
 	width:200px;
-	margin:-21px 15px 0px 0px;
+	margin:-23px 15px 0px 0px;
   }
 .banner-title {
 	display: block;
@@ -3714,7 +3714,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar {
-  	min-height: 55px;
+  	min-height: 58px;
   }
   .navbar-brand {
   	float: none;
