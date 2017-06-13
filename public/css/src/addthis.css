@@ -1,0 +1,66 @@
+/*
+ *  Addthis Styles
+ */
+.addthis {
+    display: inline-block;
+    width: 100px;
+    float:right;
+}
+.addthis_button_508 {
+    cursor: pointer;
+    background: url(../libs/addthis/images/addthis.gif) no-repeat left center;
+    padding-left: 20px;
+}
+
+.invisible {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.addthis_toolbar {
+    position:relative;
+    zoom:1;
+    list-style-type: none;
+}
+.addthis_button_a {
+    cursor:pointer;
+    color:#259;
+    background:url(../libs/addthis/images/addthis.gif) no-repeat left center;
+    padding-left:20px;
+}
+.addthis_list.show{
+    margin:0;
+    position:absolute;
+    top:1.3em;
+    left:0;
+    z-index:99;
+    background:#FFF;
+    width:14.8em;
+    padding:.3em .1em;
+    border:1px solid #CCC;
+}
+.addthis_list li{
+    list-style:none;
+    width:50%;
+    float:left;
+    font-size:93%;
+    font-weight:bold;
+    font:"Trebuchet MS";
+}
+.addthis_list a{
+    padding-left:20px;
+    display:block;
+    height:16px;
+    text-decoration:none;
+}
+.addthis_list a:hover{background-color:#eee;}
+.addthis_list .favorites{background:url(../libs/addthis/images/favorites.gif) no-repeat left center;}
+.addthis_list .email{background:url(../libs/addthis/images/email.gif) no-repeat left center;}
+.addthis_list .facebook{background:url(../libs/addthis/images/facebook.gif) no-repeat left center;}
+.addthis_list .twitter{background:url(../libs/addthis/images/twitter-s.gif) no-repeat left center;}
+.addthis_list .google{background:url(../libs/addthis/images/google.gif) no-repeat left center;}
+.addthis_list .ybuzz{background:url(../libs/addthis/images/buzz.gif) no-repeat left center;}
+.addthis_list .delicious{background:url(../libs/addthis/images/delicious.gif) no-repeat left center;}
+.addthis_list .digg{background:url(../libs/addthis/images/digg.gif) no-repeat left center;}
+.addthis_list .more{background:url(../libs/addthis/images/addthis.gif) no-repeat left center;}

@@ -1,0 +1,111 @@
+/*
+ * Typography
+ **************************************************/
+
+h1 {
+    color: #0074A1;
+    font-weight: normal;
+    margin-top:0;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #558409;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    line-height: 1.25;
+}
+
+blockquote {
+    border-left: 5px solid #89CD00;
+}
+
+
+.icon-file {
+    margin-left:4px;
+    position:relative;
+    vertical-align:text-top;
+}
+
+
+/*
+ *  Color Palette
+ **************************************************/
+
+/* Primary colors */
+.colors.green {
+  background-color: #5D9300;
+  color: #000;
+}
+.colors.orange {
+  background-color: #D85D19;
+  color: #000;
+}
+.colors.blue {
+  background-color: #0074A1;
+  color: #fff;
+}
+.colors.dkgray {
+  background-color: #444;
+  color: #fff;
+}
+.colors.ltgray {
+  background-color: #bbb;
+  color: #000;
+}
+
+/* Extended colors */
+.colors-extended.dkblue {
+  background-color: #005B82;
+  color: #fff;
+}
+.colors-extended.ltblue {
+  background-color: #1F82BB;
+  color: #000;
+}
+.colors-extended.dkgreen {
+  background-color: #007934;
+  color: #fff;
+}
+.colors-extended.ltgreen {
+  background-color: #69BE28;
+  color: #000;
+}
+.colors-extended.orange {
+  background-color: #E37222;
+  color: #000;
+}
+.colors-extended.yellow {
+  background-color: #FECB00;
+  color: #000;
+}
+.colors-extended.dkgray {
+  background-color: #5E6A71;
+  color: #fff;
+}
+.colors-extended.ltgray {
+  background-color: #C3C8C8;
+  color: #000;
+}
+
+
+/*
+ *  Font Awesome
+ **************************************************/
+
+/*  Toggle style on collapse */
+.collapsed .fa-minus-square-o:before {
+  content: "\f196";
+}
+
+.collapsed .fa-plus-square-o:before {
+  content: "\f147";
+}
