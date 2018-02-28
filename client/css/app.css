@@ -1,7 +1,7 @@
 /*!
  * DEVELOPMENT VERSION
  * EERE Template v0.0.2 (https://github.com/NREL/eere-app-template)
- * 2017-06-01 
+ * 2017-06-01
  */
 
 html {
@@ -1771,7 +1771,7 @@ input[type="date"] {
 .login .form-group,
 .signup .form-group{
 	margin-bottom: 0;
-} 
+}
 .radio,
 .checkbox {
   display: block;
@@ -3700,13 +3700,21 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 .banner-title {
 	display: block;
-	margin: 14px 0 0 15px;
+	margin: 10px 0 8px 15px;
+}
+.banner-title a:link,
+.banner-title a:visited,
+.banner-title a:hover,
+.banner-title a:active {
+	color: white;
+	text-decoration: none;
 }
 .navbar-brand {
   font-size: 24px;
   font-weight: 400;
   float: none;
   padding:0 0 0 15px;
+  line-height: 24px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -3719,7 +3727,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-brand {
   	float: none;
   	padding:0 0 0 20px;
-}	
+}
   .banner-logo {
 	margin:-21px 15px 0px 0px;
   }
@@ -4231,11 +4239,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 26px;
+  padding: 0px;
+  margin-bottom: 1em;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 4px;
+  font-size: 15px;
 }
 .breadcrumb > li {
   display: inline-block;
