@@ -4238,6 +4238,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-link:hover {
   color: #ffffff;
 }
+.breadcrumbs {
+  margin-bottom: 1em;
+  font-size: 15px;
+}
 .breadcrumb {
   padding: 0px;
   margin-bottom: 1em;
