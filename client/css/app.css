@@ -3034,8 +3034,13 @@ input[type="button"].btn-block {
 .dropdown {
   position: relative;
 }
-.dropdown, .navbar-right a {
-  background: #2C2C2B;
+@media (max-width: 768px) {
+  .dropdown, .navbar-right a {
+    background: #2C2C2B;
+  }
+  header .navbar-collapse {
+    margin-top: 70px;
+  }
 }
 .dropdown-toggle:focus {
   outline: 0;
