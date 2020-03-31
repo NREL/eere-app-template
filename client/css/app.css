@@ -119,6 +119,16 @@ textarea {
   font: inherit;
   margin: 0;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #555;;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #555;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #555;
+}
 button {
   overflow: visible;
 }
@@ -464,7 +474,7 @@ h2,
 .h2 {
   font-size: 30px;
   font-weight: 400;
-  color: #00853e;
+  color: #007934;
   letter-spacing: -.5px;
 }
 h3,
@@ -478,7 +488,7 @@ h4,
 .h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #00853e;
+  color: #007934;
 }
 h5,
 .h5 {
@@ -6673,7 +6683,7 @@ h3 {
 }
 
 h4 {
-    color: #00853E;
+    color: #007934;
     font-weight: 500;
     letter-spacing: -.01em;
     line-height: 1.25;
