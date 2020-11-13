@@ -6266,7 +6266,11 @@ footer a:hover {
   text-transform: uppercase;
   margin-bottom: 1em;
   font-weight: bold;
+  margin-top:2em;
 }
+@media only screen and (min-width : 768px) {
+    .footer-header {margin-top:0;}
+    }
 
 footer ul.menu {
   list-style: none;
