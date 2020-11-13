@@ -6207,29 +6207,90 @@ header .navbar-collapse  {
  **************************************************/
 
 footer {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 footer p {
-    padding-top: 10px;
-    font-size: .8em;
-    text-align: center;
-    color: #3C4349;
-    line-height: 1.7em;
+  margin: 0;
+  font-size: .8em;
+  color: #fff;
+  line-height: 1.7em;
 }
 
-footer .footer-links a {
-    color: #0074A1;
-    text-decoration: none;
+footer p a {
+  line-height: 2;
 }
 
-footer .footer-links :visited {
-    color: #bf4e00;
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
 
-footer .footer-links a:hover {
-    color: #3C4349;
-    text-decoration: underline;
+footer :visited {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-top {
+  background-color: #151515;
+  padding: 40px 80px 70px 80px;
+}
+
+.footer-bottom {
+  background-color: #000000;
+  padding: 2.5rem 5rem;
+}
+.site-name {
+  margin-bottom: 1.5em;
+}
+.circle-icon {
+  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  margin-right: 0.25em;
+}
+
+.energy-social-widget {
+  margin-top: 1em;
+}
+
+.footer-header {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+footer ul.menu {
+  list-style: none;
+  text-align: left;
+  clear: both;
+  float: none;
+  overflow: hidden;
+  margin-left: -45px;
+}
+
+.footer-bottom ul.menu > li {
+  float: left;
+  font-size: 0.75em;
+}
+
+.footer-bottom ul.menu > li::after {
+  color: #767676;
+  content: "•";
+  font-weight: 400;
+  margin: 0 0.625rem;
+}
+
+.footer-bottom ul.menu > li:last-child::after {
+  content: "";
 }
 
 
