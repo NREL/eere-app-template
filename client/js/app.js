@@ -4,7 +4,7 @@
  */
 (function ($) {
   $(document).ready(function() {
-    var host = "https://www.eere.energy.gov";
+    var host = "//www.eere.energy.gov";
 
     var fileTypes = {
         doc:  "/images/icon_word.gif",
