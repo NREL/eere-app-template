@@ -6259,7 +6259,7 @@ footer a:hover {
 }
 
 .energy-social-widget {
-  margin-top: 1em;
+  margin: 1em 0;
 }
 
 .footer-header {
@@ -6302,6 +6302,7 @@ footer ul.menu {
   content: "";
 }
 .programbar {text-align: center; padding:1.5em;}
+.office {font-size: 0.7em; line-height:1.2; margin-bottom: 1.5rem;}
 
 /*
  *  Faceted Search
