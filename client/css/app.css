@@ -1,7 +1,7 @@
 /*!
  * DEVELOPMENT VERSION
- * EERE Template v0.0.2 (https://github.com/NREL/eere-app-template)
- * 2017-06-01
+ * EERE Template (https://github.com/NREL/eere-app-template)
+ * last updated: 2020-12-07
  */
 
 html {
@@ -6236,10 +6236,10 @@ footer a:hover {
 }
 
 .footer-top {
-  background-color: #151515;
-  padding: 40px 80px 70px 80px;
+    padding: 40px 80px 70px 80px;
+    background-image: linear-gradient(to top,#151515 50%,#202020 50%);
+    background-repeat: repeat-x;
 }
-
 .footer-bottom {
   background-color: #000000;
   padding: 2.5rem 5rem;
@@ -6266,11 +6266,16 @@ footer a:hover {
   text-transform: uppercase;
   margin-bottom: 1em;
   font-weight: bold;
-  margin-top:2em;
+  margin-top:2.5em;
 }
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 992px) {
     .footer-header {margin-top:0;}
+    .footer-top {
+        padding: 40px 80px 70px 80px;
+        background-image: linear-gradient(to right,#202020 50%,#151515 50%);
+        background-repeat: repeat-x;
     }
+}
 
 footer ul.menu {
   list-style: none;
@@ -6296,7 +6301,7 @@ footer ul.menu {
 .footer-bottom ul.menu > li:last-child::after {
   content: "";
 }
-
+.programbar {text-align: center; padding:1.5em;}
 
 /*
  *  Faceted Search
