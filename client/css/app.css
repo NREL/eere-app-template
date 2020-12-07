@@ -6245,7 +6245,7 @@ footer a:hover {
   padding: 2.5rem 5rem;
 }
 .site-name {
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
 }
 .circle-icon {
   border: 1px solid #fff;
@@ -6274,6 +6274,9 @@ footer a:hover {
         padding: 40px 80px 70px 80px;
         background-image: linear-gradient(to right,#202020 50%,#151515 50%);
         background-repeat: repeat-x;
+    }
+    .site-name {
+      margin-bottom: 1.5em;
     }
 }
 
