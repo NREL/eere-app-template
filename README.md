@@ -1,3 +1,7 @@
+This version of the EERE template is no longer maintained. Use the most recent Bootstrap 5 version instead.
+
+https://github.com/NREL/EERE-Application-Template-Bootstrap-5
+
 # EERE Application Style Guide Accessibility Notes
 
 ## Side/Left Navigation
